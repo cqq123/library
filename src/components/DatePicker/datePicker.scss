@@ -1,0 +1,30 @@
+.main {
+  display: flex;
+  width: 300px;
+  justify-content: space-around;
+}
+.tab {
+  display: block;
+  width: 50px;
+  text-align: center;
+  font-size: 14px;
+  padding: 8px 0;
+  cursor: pointer;
+}
+
+.active {
+  background: #00d2d9;
+  border-radius: 4px;
+}
+.customTab {
+  position: absolute;
+  top: 12px;
+  right: 10px;
+  z-index: 100;
+}
+.dayPicker {
+  position: absolute;
+  top: 55px;
+  right: 100px;
+  border: 1px solid #fff;
+}

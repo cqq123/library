@@ -1,0 +1,32 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  background: #005e61;
+  width: 46px;
+  padding: 16px 0;
+  color: #fff;
+  align-items: center;
+}
+.navLine {
+  text-decoration: none;
+  padding: 5px;
+}
+.navIconTaxi {
+  display: block;
+  width: 20px;
+  height: 20px;
+  background: url(./taxi.png);
+}
+.navIconBus {
+  display: block;
+  width: 20px;
+  height: 20px;
+  background: url(./bus.png);
+}
+.navIconBicycle {
+  display: block;
+  width: 20px;
+  height: 20px;
+  background: url(./bicycle.png);
+}
