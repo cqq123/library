@@ -1,0 +1,29 @@
+.main {
+  display: inline-block;
+  user-select: none;
+}
+
+.checkbox {
+  display: inline-block;
+  height: 13px;
+  width: 13px;
+  overflow: hidden;
+  position: relative;
+  vertical-align: middle;
+  background: url(./uncheck.png);
+  .input {
+    position: absolute;
+    top: -30px;
+    left: -30px;
+  }
+  &.checked {
+    background: url(./checked.png);
+  }
+
+}
+.label {
+  cursor: pointer;
+  font-size: 14px;
+  color: #fff;
+  margin-left: 8px;
+}

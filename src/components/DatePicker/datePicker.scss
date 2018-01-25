@@ -1,3 +1,7 @@
+.content {
+  display: flex;
+  align-items: center;
+}
 .main {
   display: flex;
   width: 300px;
@@ -16,15 +20,12 @@
   background: #00d2d9;
   border-radius: 4px;
 }
-.customTab {
-  position: absolute;
-  top: 12px;
-  right: 10px;
-  z-index: 100;
-}
 .dayPicker {
-  position: absolute;
   top: 55px;
-  right: 100px;
-  border: 1px solid #fff;
+  right: 300px;
+  display: flex;
+  align-items: center;
+}
+.split {
+  margin: 0 10px;
 }
