@@ -1,0 +1,76 @@
+.chart {
+  display: flex;
+  justify-content: space-between;
+}
+.test1 {
+  border: 1px solid #fff;
+  flex: 1;
+  height: 200px;
+}
+.test2 {
+  border: 1px solid #fff;
+  flex: 1;
+  position: relative;
+  height: 200px;
+}
+.axisLeft {
+  path {
+    stroke: #fff;
+    stroke-width: 2;
+  }
+  line {
+    stroke: #fff;
+  }
+  text {
+    fill: #fff;
+  }
+}
+.axisRight {
+  path {
+    stroke: #fff;
+    stroke-width: 2;
+  }
+  line {
+    stroke: #fff;
+  }
+  text {
+    fill: #fff;
+  }
+}
+.axisBottom {
+  path {
+    stroke: #fff;
+    stroke-width: 2;
+  }
+  line {
+    stroke: #fff;
+  }
+  text {
+    fill: #fff;
+  }
+}
+.lineChartValue {
+  path {
+    fill: none;
+    stroke: rgb(91, 233, 238);
+    stroke-width: 4;
+  }
+}
+.lineChartRate {
+  path {
+    fill: none;
+    stroke: #fff;
+    stroke-width: 2;
+  }
+}
+.lineChartSpeed {
+  path {
+    fill: none;
+    stroke: #f00;
+    stroke-width: 2;
+  }
+}
+.circleValue {
+  fill: #fff;
+  border: 1px solid #fff;
+}

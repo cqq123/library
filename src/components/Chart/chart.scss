@@ -1,0 +1,43 @@
+
+.main {
+  // position: relative;
+  // text {
+  //   fill: #ffffff;
+  // }
+  // line {
+  //   stroke: #fff;
+  // }
+}
+
+.toolTipRect {
+  rect {
+    fill: transparent;
+  }
+  z-index: 2000;
+  line {
+    stroke: #ffffff;
+  }
+
+}
+.tipsRect {
+  fill: rgba(255, 255, 255, 0.2);
+}
+
+.tipsGroup {
+  line {
+    stroke: #fff;
+  }
+}
+.toolTipContent {
+  border-radius: 4px;
+  border: 1px solid;
+  padding: 10px;
+  position: absolute;
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.toolRect {
+  rect {
+    fill: transparent;
+  }
+}

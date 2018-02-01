@@ -28,10 +28,12 @@ class Subpage extends Component {
       dateType: type,
       dateRange,
     });
-    console.log(dateRange, type, '-----------------------');
   }
   handleClickOutside() {
-    this.props.onClose();
+    const { page } = this.props;
+    if (page !== -1) {
+      this.props.onClose();
+    }
   }
   handleChangePage(idx) {
     this.props.onChangePage(idx);
